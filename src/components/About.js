@@ -1,4 +1,6 @@
 import React from 'react';
+import fotoCV from '../images/Foto_CV.jpg';
+
 
 function About() {
   return (
@@ -6,7 +8,7 @@ function About() {
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 mb-4 md:mb-0">
           <img 
-            src="Foto_CV.jpg"
+            src={fotoCV}
             alt="Lucas Romero" 
             className="rounded-full w-32 h-32 md:w-48 md:h-48 object-contain mx-auto"
           />
@@ -31,3 +33,4 @@ function About() {
 }
 
 export default About;
+
